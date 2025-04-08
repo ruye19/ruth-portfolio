@@ -1,9 +1,10 @@
 import netfliximg from "../src/assets/images/dcl-650-qGUnC07RMIQ-unsplash.jpg"
-import amazonimg from "../src/assets/images/abid-shah-cxAV7aUesIQ-unsplash.jpg"
+import amazonimg from "../src/assets/images/analyticsinsight_import_wp-content_uploads_2020_11_Amazon.avif"
 import portfolioimg from "../src/assets/guru.jpg"
 import QandA from "../src/assets/images/image.png"
 import careerConnector from "../src/assets/images/Screenshot 2025-04-06 142737.png"
 import blogApp from "../src/assets/image.png"
+import applewebsite from "../src/assets/Apple-homepage.png"
 
 
 
@@ -125,6 +126,12 @@ const dataportfolio =
         description: "A blogging platform where users can create, edit, and delete posts. It features user authentication, post categorization",
         link: "https://github.com/ruye19/Blog-application-",
     },
+    
+    {
+        "img":applewebsite,
+        "description": "Apple Website Clone - A responsive replica of the Apple website. Built with HTML, bootstrap, and JavaScript.",
+        "link": "https://apple-web-t2ae.vercel.app/"
+      },
   
 ];
 
