@@ -5,7 +5,12 @@ import QandA from "../src/assets/images/image.png"
 import careerConnector from "../src/assets/images/Screenshot 2025-04-06 142737.png"
 import blogApp from "../src/assets/image.png"
 import applewebsite from "../src/assets/Apple-homepage.png"
-
+import evangadi from "../src/assets/evangadi full stack.jpg"
+import udacity from "../src/assets/images/udacity.jpg"
+import ai from "../src/assets/images/ai female.jpg"
+import ss from "../src/assets/images/ai.jpg"
+import campus from "../src/assets/kotline campus overfloe.jpg"
+import internship from "../src/assets/internship.jpg"
 
 
 const logotext = "RUTH";
@@ -92,9 +97,25 @@ const services = [{
         description:"Partnered with other students to develop a fully functional e-banking system receiving positive feedback for its user-friendly interface and efficient design.Created a comprehensive database design for a delivery company, ensuring optimized data"
     }
 ]
-
+//https://ruth-portfolio-1je2.vercel.app/
 const dataportfolio = 
 [
+    {
+    "img": evangadi,
+    "description": "i was in full stack bootcamp for 6 month and i have done a lot of projects and i am proud of all of them",
+  },
+    {
+    "img": udacity,
+    "description": "i also take web fundamentals course from udacity and i have done a lot of projects and i am proud of all of them",
+  },
+    {
+    "img": ai,
+    "description": "i have ai fundamental course and on side prompt engineering from micrsoft that prepare only for womens and i am proud of all of them",
+  },
+    {
+    "img": ss,
+    "description": "i have ai fundamental course from micrsoft that is very essientail and this prove my potential too",
+  },
     {
     "img": netfliximg,
     "description": "Netflix Clone - A responsive streaming platform replica with movie browsing, categories, and trailer playback functionality. Built with React, Firebase authentication, and TMDB API integration.",
@@ -107,6 +128,11 @@ const dataportfolio =
     "link": "https://amazon-frontend-fawn.vercel.app/"
   },
     {
+        img: campus,
+        description: "with my team i do kotline project that is like mini stackoverflow for AAU to help students interact and ask each other question and respons on one ther concerns ",
+        link: "https://github.com/ruye19/campusOverflow",
+    },
+    {
         img: QandA,
         description: "A full-stack community forum where users can post questions, share answers, and engage in discussions. ",
         link: "https://forum-of-evangadi-bootcamp.vercel.app/",
@@ -115,6 +141,11 @@ const dataportfolio =
         img:careerConnector ,
         description: "CareerConnect is a team-built application designed to bridge the gap between job seekers and employers.",
         link: "https://career-connector-system-2024-25-l557.vercel.app/",
+    },
+    {
+        img:internship ,
+        description: "As side project for AAU we see the problem on finding and evaluating students internships so we so web application to digitalize it!",
+        link: "https://github.com/ruye19/internshipSphereTest",
     },
     {
         img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/900px-JavaScript-logo.png?20120221235433",
